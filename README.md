@@ -12,8 +12,8 @@ Overview:
 Result:
 --
 Verification and Identification rates for the loss functions tested on the c-RMFRD.
-<p align="left"><img width="50%" src="verification.png" /></p>
-<p align="left"><img width="50%" src="identification.png" /></p>
+<p align="left"><img width="50%" src="verification.JPG" /></p>
+<p align="left"><img width="50%" src="identification.JPG" /></p>
 
 Pre-requisites:
 --
