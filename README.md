@@ -27,6 +27,7 @@ How to use:
 1. Clone the Repository to preserve Directory Structure.
 2. Because the size of our pretrained model is too big to be stored to GitHub, please download the model from
 https://drive.google.com/file/d/1H8RqQ4GAYSVFt9q3CgIyS1CrOKQRXi7U/view?usp=sharing
+
 3.Unzip it and place it in the model directory ``model/``.
 4. Run the commands ```python Verification_AFDB.py ``` and ```python Identification_AFDB.py ``` to get the verification and identification results.
 5. In **/sample/** directory, we provide 3 images to test the mask generator.
@@ -48,7 +49,4 @@ Result:
 
 Citation:
 --
-```
-```
-
 Please feel free to contact us if you have any questions. Prof. Gee-Sern Jison Hsu e-mail: jison@mail.ntust.edu.tw
