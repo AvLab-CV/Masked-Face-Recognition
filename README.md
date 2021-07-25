@@ -7,7 +7,7 @@ Overview:
 
 2. We provide two trained model for face verification and identification.
 
-3. The **code** can add on a synthetic mask to each face in a dataset, offering an efficient solution to the lack of facial mask databases. This solution is helpful to the studies on face detection and recognition against facial masks.
+3. The **make_mask.py** can add on a synthetic mask to each face in a dataset, offering an efficient solution to the lack of facial mask databases. This solution is helpful to the studies on face detection and recognition against facial masks.
 
 Result:
 --
