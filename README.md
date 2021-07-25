@@ -3,7 +3,7 @@
 Overview:
 --
 1. We manually clean the RMFRD dataset by removing the images which are difficult to verify, and wind up with a cleaned version of the RMFRD, or the c-RMFRD in short. The c-RMFRD has 831 masked faces of 248 subjects and 3,627 images of the same 248 subjects without masks.
-<p align="left"><img width="50%" src="CRMFRD.png" /></p>
+  <p align="left"><img width="50%" src="CRMFRD.png" /></p>
 
 2. We provide two trained model for face verification and identification.
 
