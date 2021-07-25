@@ -25,9 +25,13 @@ Pre-requisites:
 How to use:
 --
 1. Clone the Repository to preserve Directory Structure.
-2. In **/sample/** directory, we provide 3 images to test the mask generator.
-3. In **/landmark/test.csv**, we provide the 68 landmarks and face types for 3 samples. 
-4. To generate the masks for samples, run the following commands:
+2. Because the size of our pretrained model is too big to be stored to GitHub, please download the model from
+https://drive.google.com/file/d/1H8RqQ4GAYSVFt9q3CgIyS1CrOKQRXi7U/view?usp=sharing
+3.Unzip it and place it in the model directory ``model/``.
+4. Run the commands ```python Verification_AFDB.py ``` and ```python Identification_AFDB.py ``` to get the verification and identification results.
+5. In **/sample/** directory, we provide 3 images to test the mask generator.
+6. In **/landmark/test.csv**, we provide the 68 landmarks and face types for 3 samples. 
+7. To generate the masks for samples, run the following commands:
 ```python make_mask.py ```
 
 ```bash
