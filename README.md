@@ -3,6 +3,7 @@
 Overview:
 --
 1. We manually clean the RMFRD dataset by removing the images which are difficult to verify, and wind up with a cleaned version of the RMFRD, or the c-RMFRD in short. The c-RMFRD has 831 masked faces of 248 subjects and 3,627 images of the same 248 subjects without masks.
+<p align="left"><img width="50%" src="CRMFRD.png" /></p>
 2. We provide two trained model for face verification and identification.
 3. The **code** can add on a synthetic mask to each face in a dataset, offering an efficient solution to the lack of facial mask databases. This solution is helpful to the studies on face detection and recognition against facial masks.
 
@@ -15,7 +16,7 @@ Pre-requisites:
 - Python3
 - Opencv
 - Pandas
-
+- Mtcnn_detector
 How to use:
 --
 1. Clone the Repository to preserve Directory Structure.
