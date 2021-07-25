@@ -11,7 +11,9 @@ Overview:
 
 Result:
 --
-<p align="left"><img width="50%" src="result/result.png" /></p>
+Verification and Identification rates for the loss functions tested on the c-RMFRD.
+<p align="left"><img width="50%" src="verification.png" /></p>
+<p align="left"><img width="50%" src="identification.png" /></p>
 
 Pre-requisites:
 --
@@ -19,6 +21,7 @@ Pre-requisites:
 - Opencv
 - Pandas
 - Mtcnn_detector
+
 How to use:
 --
 1. Clone the Repository to preserve Directory Structure.
@@ -27,7 +30,6 @@ How to use:
 4. To generate the masks for samples, run the following commands:
 ```python make_mask.py ```
 
-
 ```bash
 Definition of the face types : 
 
@@ -35,6 +37,10 @@ Example : 0_1
 The first number "0" means the facial image is frontal and "1" means the facial image is profile.
 The second number "0" means the facial image is clear and "1" means the facial image is blur.
 ```
+
+Result:
+--
+<p align="left"><img width="50%" src="result/result.png" /></p>
 
 Citation:
 --
